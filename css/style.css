@@ -118,19 +118,17 @@ focus{
 /* Remainder of requirements here: */
 
 header{
+  background: url('../images/header.jpg');
+  min-height: 400px; /* Parallax effect */
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   color: white;
-  height: 400px; /* Parallax effect */
-
   /* YOUR CODE HERE; */
   grid-column: 1 / -1;
   grid-row: 1 / span 1;
-  background: url('../images/header.jpg');
   background-repeat: no-repeat;
 }
-
 
 
 .about-image{
